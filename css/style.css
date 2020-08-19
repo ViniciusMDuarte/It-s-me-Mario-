@@ -1,5 +1,7 @@
 :root {
     --color-red: #CE001A;
+    --color-red-dark: #e25467;
+
 }
 
 * {
@@ -116,7 +118,10 @@ a {
     margin-top: 20px;
 }
 
-
+.conteudo a:hover {
+    background-color: var(--color-red-dark); 
+    transition: 0.2s;
+}
 footer ul {
     display: flex;
     list-style: none;
